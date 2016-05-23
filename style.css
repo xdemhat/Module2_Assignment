@@ -3,32 +3,35 @@
 			text-align: center;
 		}
 		* {box-sizeing: border-box;
-			margin-right: 10px;
+			margin-right: 5px;
+      margin-left: 5px;
 		}
 		
 		#box {/*position: relative;*/
 			background-color: gray;
 			padding: 1px;
 			border: 2px solid black;
-			/*width: 90%;*/
-  			height: auto; 
-  			margin: 2px;
-  			overflow: auto;
+  		height: auto; 
+  		margin: 10px;
+  		overflow: auto;
 
 		}
 		#box2 {
 			position: relative;
 			top: 0;
 			left: 79%;
+      margin: 0;
 			background-color: pink;
 			padding: 1px;
 			border: 1px solid black;
 			width: 70px;
 			text-align: center;
-			font: bold; 
+			
 		}
-		#content { background-color: gray
-		}
+		#content {background-color: gray}
+    #color1 {background-color: pink}
+    #color2 {background-color: green}
+    #color3 {background-color: yellow}
 
 /* Simple Responsive Framework. */
 .row {
@@ -101,7 +104,7 @@
     width: 41.66%;
   }
   .col-md-6 {
-    width: 47%;
+    width: 45%;
   }
   .col-md-7 {
     width: 58.33%;
